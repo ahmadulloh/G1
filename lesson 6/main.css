@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#flexbox {
+  background: #000;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.box {
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid yellow;
+  padding: 5px 10px;
+  width: 300px;
+}
